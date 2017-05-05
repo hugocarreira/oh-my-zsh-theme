@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/hugoubuntu/.oh-my-zsh
+  export ZSH=/home/hugocarreira/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -84,10 +84,10 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Vagrant
-alias vagrantwww='cd ~/vagrant/www'
-alias vagrantstatus='cd ~/vagrant/www && vagrant status';
-vagrantup() { cd ~/vagrant/www/"$1"; vagrant up; }
-vagranthalt() { cd ~/vagrant/www/"$1"; vagrant halt; }
+# alias vagrantwww='cd ~/vagrant/www'
+# alias vagrantstatus='cd ~/vagrant/www && vagrant status';
+# vagrantup() { cd ~/vagrant/www/"$1"; vagrant up; }
+# vagranthalt() { cd ~/vagrant/www/"$1"; vagrant halt; }
 
 #Productivity
 mcd() { mkdir -p "$1"; cd "$1";}
